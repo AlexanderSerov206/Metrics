@@ -19,7 +19,6 @@ namespace MetricsAgent.Controllers
     {
 
         [HttpGet("from/{fromTime}/to/{toTime}")]
-        //[Route("from/{fromTime}/to/{toTime}")]
         public IActionResult GetCpuMetrics([FromRoute] TimeSpan fromTime, [FromRoute] TimeSpan toTime)
         {
             return Ok();
