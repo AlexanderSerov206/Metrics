@@ -14,7 +14,6 @@
             }
         }
 
-
         private Dictionary<int, AgentInfo> _values;
 
         public AgentPool()
