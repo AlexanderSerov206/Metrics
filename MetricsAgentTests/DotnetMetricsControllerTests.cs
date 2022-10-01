@@ -10,20 +10,20 @@ namespace MetricsAgentTests
 {
     public class DotnetMetricsControllerTests
     {
-        private DotnetMetricsController _dotnetMetricsController;
+        //private DotnetMetricsController _dotnetMetricsController;
 
-        public DotnetMetricsControllerTests()
-        {
-            _dotnetMetricsController = new DotnetMetricsController();
-        }
+        //public DotnetMetricsControllerTests()
+        //{
+        //    _dotnetMetricsController = new DotnetMetricsController();
+        //}
 
-        [Fact]
-        public void GetCpuMetrics_ReturnOk()
-        {
-            TimeSpan fromTime = TimeSpan.FromSeconds(0);
-            TimeSpan toTime = TimeSpan.FromSeconds(100);
-            var result = _dotnetMetricsController.GetErrorsCountMetrics(fromTime, toTime);
-            Assert.IsAssignableFrom<IActionResult>(result);
-        }
+        //[Fact]
+        //public void GetCpuMetrics_ReturnOk()
+        //{
+        //    TimeSpan fromTime = TimeSpan.FromSeconds(0);
+        //    TimeSpan toTime = TimeSpan.FromSeconds(100);
+        //    var result = _dotnetMetricsController.GetErrorsCountMetrics(fromTime, toTime);
+        //    Assert.IsAssignableFrom<IActionResult>(result);
+        //}
     }
 }
